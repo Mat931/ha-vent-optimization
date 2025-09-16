@@ -1,4 +1,4 @@
-# HA-vent-optimization
+# Vent Optimization
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg?style=for-the-badge)](https://github.com/hacs/integration)
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/HrGaertner/HA-vent-optimization/actions.yaml?label=HA%20compatible&style=for-the-badge)
 
@@ -11,7 +11,7 @@ Use this link:
 
 [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=HrGaertner&repository=HA-vent-optimization&category=integration)
 
-And install the configuration
+And install the integration
 
 ## Configuration
 You can configure and setup this integration via a Config Flow. Thanks a lot to [Alexwijn](https://github.com/Alexwijn)
