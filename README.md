@@ -15,13 +15,18 @@ And install the configuration
 
 ## Configuration
 You can configure and setup this integration via a Config Flow. Thanks a lot to [Alexwijn](https://github.com/Alexwijn)
+
 ![image](https://github.com/HrGaertner/HA-vent-optimization/assets/53614377/d1e04abb-b06d-4407-89e2-3754c54de6bf)
-```
+
+## Sensor Values
+- `0 minutes` means venting doesn't make sense right now because the outside is to humid
+- `1-299 minutes` means you should vent for that amount of time
+- `300 minutes` means it would take 300 minutes or longer to vent
+- `unavailable` means one or more of the temperature and humidity sensors are unavailable
 
 ## The optimization
-If you want to customize the opimization to adapt to your local situation gather trainingsdata and use either this [jupyter notebook](https://github.com/HrGaertner/vent-optimization/blob/main/code/model%7Ctraining/model-training.ipynb) or this [webapp](https://hrgaertner.github.io/vent-optimization/) (under "Training" (i am sorry it is currently German only))
+If you want to customize the opimization to adapt to your local situation gather training data and use either this [jupyter notebook](https://github.com/HrGaertner/vent-optimization/blob/main/code/model%7Ctraining/model-training.ipynb) or this [webapp](https://hrgaertner.github.io/vent-optimization/) (under "Training" (i am sorry it is currently German only))
 
 To learn about the model and the optimization itself have look at the whole repository dedicated to the development of the model and the webapp
-
 
 **This integration used the [Mold Indicator Integration](https://www.home-assistant.io/integrations/mold_indicator/) as a minimal template to start from.**
